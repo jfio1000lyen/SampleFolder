@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Bar with Buttons</title>
+  <style>
+    .search-container {
+      position: relative;
+      width: 300px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px 40px 10px 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .search-button, .clear-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .search-button {
+      right: 40px;
+      color: blue;
+    }
+
+    .clear-button {
+      right: 10px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+    <button class="search-button" onclick="performSearch()">🔍</button>
+    <button class="clear-button" onclick="clearSearch()">❌</button>
+  </div>
+
+  <script>
+    function performSearch() {
+      const query = document.getElementById('searchInput').value;
+      if (query) {
+        alert(`Searching for: ${query}`);
+      } else {
+        alert('Please enter a search term.');
+      }
+    }
+
+    function clearSearch() {
+      document.getElementById('searchInput').value = '';
+    }
+  </script>
+</body>
+</html>
+
+.search{
+	width: 330px;
+	float: left;
+	margin-left: 270px;	
+}
+.srch{
+	font-family: 'Times New Roman', Times, serif;
+	width: 200px;
+	height:22px;
+	border: 1px solid ##ff7200;
+	margin-top: 13px;
+	color: #fff;
+	border-right: none;	
+	font-size:13px;
+	float: left;
+	padding: 0px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.search i{
+	position: absolute;
+	top: 32px;
+	right:280px;
+	transform: translateY(-50%);
+	color:#228B22;
+	cursor: pointer;
+}
+.bnt-srch{
+	width: 50px;
+	height: 25px;
+	background: #008080;
+	border: 2px solid #008080;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.bnt-clr{
+	width: 50px;
+	height: 25px;
+	background: #008080;
+	border: 2px solid #008080;
+	margin-top: 13px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.srch:focus{
+	outline:none;
+}
+.bnt-srch:focus{
+	outline:none;
+}
+
+
+
+
+
+
