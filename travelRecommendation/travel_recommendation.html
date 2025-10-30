@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel across the World</title>
+	</meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body background="C:\Users\jeann\OneDrive\Pictures\manhattan.jpg">
+	<div class="navbar" >
+		<div class="container">
+			<div class="logo">
+			<h1><i class="fas fa-plane"></i><em>TravelBloom</em></h1>
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li><a href=""><i class="fas fa-home"></i>Home</a></li>
+					<li><a href="about.html"><i class="fas fa-info-circle"></i>About US</a></li>
+					<li><a href="contact.html"><i class="fas fa-phone"></i>Contact US</a></li>
+				</ul>
+			</div>
+			<div class="search-form" style="margin-right: 10px;">
+				<input type="text" id="conditionInput" placeholder="Enter a destination or keyword">
+				<i class="fas fa-search"></i>
+				<button id="btnSearch" class="search-button">Search</button>
+                <button id="btnClear" class="clear-button">Clear</button>
+			</div>
+		</div>
+		<div class="searchCondition">
+        <div id="result"></div>
+    </div>
+	</div>
+	<div class="social-meadia" style="
+			height: 80px;
+			width: 800px;
+			padding-top: 50px;
+    ">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!-- Add font awesome icons -->
+         <a href="#" class="fa fa-facebook"></a><br>
+         <a href="#" class="fa fa-twitter"></a><br>
+		 <a href="#" class="fa fa-instagram"></a><br>
+         <a href="#" class="fa fa-youtube"></a>
+	</div>
+	    <!-- Home-->
+    <section id="recommendations">
+      <h2>EXPLORE<br> DREAM<br> DESTINATION</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          Travel isn’t always pretty. It isn’t always comfortable. 
+		  Sometimes it hurts, it even breaks your heart. But that’s okay. 
+		  The journey changes you; it should change you. It leaves marks on your memory,
+		  on your consciousness, on your heart, and on your body. You take something with you. 
+		  Hopefully, you leave something good behind
+        </div>
+      </div>
+    </section>
+	<button id="btnBook" class="btn_book" style=" margin-bottom: 30px;">Book now</button>
+	<script src="./travel_recommendation.js"></script>
+</body>
+</html>

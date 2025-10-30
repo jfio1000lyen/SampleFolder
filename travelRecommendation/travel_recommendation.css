@@ -1,0 +1,180 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: boder-box;
+	font-family: sans-serif;
+}
+.navbar{
+	background-color: #2F4F4F;
+	color:#fff;
+	padding:0px 5px;
+	width: 100%;
+    overflow: auto;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+  padding:10px 0px;
+}
+.logo h1{
+	font-size:30px;
+	padding:0px 20px;
+    position: absolute; /* remove the logo from the flow */
+    left: 0px;   /* move the logo to left */
+}
+.nav-links ul{
+	list-style: none;
+	position: absolute; /* remove the logo from the flow */
+    center: 0px;   /* move the logo to left */
+
+}
+.nav-links ul li{
+	display: inline-block;
+	margin-right:5px;
+	margin-left:5px;
+}
+.nav-links ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color:#fff;
+	width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+.nav-links ul li a:hover{
+	color:#228B22;
+}
+.search-form{
+	display: flex;
+	position: relative;
+
+}
+.search-form input{
+	width: 400px;
+	height: 25px;
+	padding: 8px;
+	border-radius:10px;
+	border: none;
+	outline: none;
+}
+.search-form i{
+	position: absolute;
+	top: 20px;
+	right:140px;
+	transform: translateY(-50%);
+	color:#228B22;
+	cursor: pointer;
+	
+}
+
+.search-button, .clear-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: #008080;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+.search-button {
+      right: 40px;
+	  margin-right:40px;
+	  color:#fff;
+      width: 55px;
+	  height: 30px;
+	  border-radius:10px;
+    }
+
+.clear-button {
+      right: 10px;
+	  color:#fff;
+      width: 55px;
+	  height: 30px;
+	  border-radius:10px;
+    }
+	
+.clear-button:hover{
+color:yellow;
+}
+
+.search-button:hover{
+color: yellow;
+}
+/* Recommendations */
+
+.all_recommendations {
+  display: flex;
+  align-items: center;
+  margin-left: 1in;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 20px;
+}
+
+.recommendation {
+  font-family: 'Times New Roman', Times, serif ;
+  color:#fff;
+  font-style: italic;
+  text-align: left;
+  width: 21.875rem;
+  padding: 1rem;
+  background-color:none;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  border:1px solid gray;
+  font-size: 18px;
+  height:150px
+}
+
+.recommendation span {
+  
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding: 15px;
+  margin-left:50px;
+  margin-top:40px;
+  
+}
+
+h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 0px;
+  margin-left: 80px;
+  margin-top:0px;
+  font-weight: 900;
+}
+.btn_book{ 
+	color:#fff;
+    width: 120px;
+	height: 40px;
+	margin-left:100px;
+	background: #008080;
+	border-radius:10px;
+}
+.social-meadia a{
+	height:30px;
+	padding:0px;
+	margin:0px 10px;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

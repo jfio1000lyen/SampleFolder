@@ -1,0 +1,143 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: boder-box;
+	font-family: sans-serif;
+}
+.navbar{
+	background-color: #2F4F4F;
+	color:#fff;
+	padding: 0px 10px
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+  padding:10px 0px;
+}
+.nav-links ul{
+	list-style: none;
+	
+    center: 0px;   /* move the logo to left */
+}
+.nav-links ul li{
+	display: inline-block;
+	margin-right:5px;
+	margin-left:5px;
+}
+.nav-links ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color:#fff;
+	width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+.social-meadia{
+	padding-top:300px;
+	align-item: left;
+}
+.social-meadia a{
+	height:30px;
+	padding:0px;
+	margin:0px 10px;
+	color:#fff;
+}
+h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  margin-left: 80px;
+  margin-top:0px;
+  font-weight: 900;
+}
+
+}
+.all_recommendations {
+  display: flex;
+  align-items: center;
+  margin-left: 1in;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 10px;
+}
+
+.recommendation {
+  font-family: 'Times New Roman', Times, serif ;
+  color:#fff;
+  font-style: italic;
+  text-align: left;
+  width: 70rem;
+  padding: 1rem;
+  background-color:none;
+  border-radius: 11px;
+  box-shadow: 0 33px 10px var(--primary-shadow);
+  padding: 10px;
+  margin: 0px;
+  border: none;
+  font-size: 18px;
+  height:150px
+}
+.team{
+  display: flex;
+  align-items: left;
+  margin-left: 1in;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 10px;
+}
+.ref{
+   display: inline-block;
+   margin-right:5px;
+   margin-left:5px;
+   position: absolute;
+   align: right;
+  
+ 
+}
+.team a{
+    height:20px;
+	background-color:blue;
+	padding:px;
+	margin:0px 20px;
+	font-size: 10px;
+	color:#fff;
+}
+
+
+.team p{
+	font-family: 'Times New Roman', Times, serif ;
+	font-size: 15px;
+	color:#fff;
+	margin-left:150px;
+}
+.about{
+	display: flex;
+	align-items: left;
+	margin-top:50px; ;
+	flex-direction: row;
+	flex-flow: wrap;
+	padding: 10px;
+}
+.resp ul{
+	list-style: none;
+	
+    center: 0px;
+}
+.resp ul li{
+	display: inline-block;
+	margin-right:5px;
+	margin-left:5px;
+}
+.resp ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color:#fff;
+	width: 10%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+	padding-left:20px;
+}
+
+
+
+
